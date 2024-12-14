@@ -1,21 +1,26 @@
 import React from "react";
-import Layout from "./Pages/Layout";
-import { BrowserRouter, Routes, Route } from "react-router";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Blogs from "./Pages/Blogs";
+import Counter from "./hook";
+// import Effect from "./Effect";
+// import Layout from "./Pages/Layout";
+// import { BrowserRouter, Routes, Route } from "react-router";
+// import Home from "./Pages/Home";
+// import About from "./Pages/About";
+// import Blogs from "./Pages/Blogs";
+import "./Style.css";
 
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <Counter />
+      {/* <Effect /> */}
+      {/* <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Blogs" element={<Blogs />} />
           <Route path="/About" element={<About />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   );
 };
