@@ -11,9 +11,9 @@ const Layout = () => {
 
   return (
     <>
-    <h1>You are now at Layout page.</h1>
-    <h3>👇 Click this button to navigate to Home page.</h3>
-    <button onClick={handleClickButton}>Click me</button>
+    <div className="flex max-w-sm rounded-xl bg-gradient-to-tr from-pink-300 to-blue-300 p-0.5 shadow-lg absolute top-48 left-96">
+      <button onClick={handleClickButton} className="flex-1 font-bold text-xl bg-white px-6 py-3 rounded-xl hover:bg-black hover:text-white transition-all">Get Started</button>
+    </div>
     </>
   )
 }
