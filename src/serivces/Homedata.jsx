@@ -1,7 +1,7 @@
 
 
 export const Homedata = async (callback) => {
-  const url = "https://webhook.site/ae21b955-8d2f-4563-81df-bcbca77f671d";
+  const url = "https://webhook.site/0f5a8d38-f15d-4388-968e-077c60e9af1d";
   try {
     const response = await fetch(url);
     if (!response.ok) {
